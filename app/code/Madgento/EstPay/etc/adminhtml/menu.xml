@@ -2,8 +2,6 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
     <menu>
         <add id="Madgento_EstPay::keychain" title="Keychain" translate="title" module="Madgento_EstPay" sortOrder="100" parent="Magento_Backend::system" resource="Madgento_EstPay::keychain"/>
-        <add id="Madgento_EstPay::keychain_keys" title="Keys" translate="title" module="Madgento_EstPay" sortOrder="10" parent="Madgento_EstPay::keychain" action="adminhtml/keys" resource="Madgento_EstPay::keychain"/>
-        <!--<add id="Magento_User::system_acl_roles" title="User Roles" translate="title" module="Magento_User" sortOrder="30" parent="Magento_User::system_acl" action="adminhtml/user_role" resource="Magento_User::acl_roles"/>-->
-        <!--<add id="Magento_User::system_acl_locks" title="Locked Users" translate="title" module="Magento_User" sortOrder="20" parent="Magento_User::system_acl" action="adminhtml/locks" resource="Magento_User::locks"/>-->
+        <add id="Madgento_EstPay::keychain_keys" title="Keys" translate="title" module="Madgento_EstPay" sortOrder="10" parent="Madgento_EstPay::keychain" action="estpay/keys" resource="Madgento_EstPay::keychain"/>
     </menu>
 </config>
